@@ -64,6 +64,7 @@ $(function() {
       // Custom functionality of our widget
       this.render();
     },
+
     /**
      * Lifecycle hook that is executed when the component is unmounted
      */
@@ -73,6 +74,7 @@ $(function() {
         self.elements[element].remove();
       });
     },
+
     /**
      * Create the elements needed for the counter widget
      *
