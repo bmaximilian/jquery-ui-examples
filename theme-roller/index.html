@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jQuery UI WidgetFactory</title>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+  <link rel="stylesheet" id="theme-style" href="css/jquery-ui.theme.none.css">
+</head>
+<body>
+  <button id="themed-button">Themed</button>
+  <button>Not Themed</button>
+
+  <div id="themed-tabs">
+    <ul>
+      <li><a href="#themed-tab-1">One</a></li>
+      <li><a href="#themed-tab-2">Two</a></li>
+      <li><a href="#themed-tab-3">Three</a></li>
+    </ul>
+    <div id="themed-tab-1">
+      First Tab
+    </div>
+    <div id="themed-tab-2">
+      Second Tab
+    </div>
+    <div id="themed-tab-3">
+      Third Tab
+    </div>
+  </div>
+
+  <select id="theme" value="none">
+    <option value="none">Standard</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+  </select>
+</body>
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="app.js"></script>
+</html>

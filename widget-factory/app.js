@@ -33,4 +33,4 @@ $(function() {
     incrementStep: 10,
     decrementStep: 100,
   });
-})
+});
